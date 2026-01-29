@@ -1,4 +1,4 @@
-# intita-vue-course
+﻿# intita-vue-course
 
 Цей репозиторій містить навчальний проєкт для курсу з Vue 3 на базі Vite.
 
