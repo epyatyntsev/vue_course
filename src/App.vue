@@ -1,11 +1,20 @@
-<script setup></script>
+<script setup>
+// Головний компонент уроку 2: демонструє базовий синтаксис Vue 3
+import DirectiveDemo from '@/components/DirectiveDemo.vue'
+import PostsPanel from '@/components/PostsPanel.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main class="page">
+    <!-- Демонстрація props і подій між компонентами -->
+    <section class="card">
+      <h2>Props та події між компонентами</h2>
+      <PostsPanel />
+    </section>
+    <!-- Демонстрація базового синтаксису, директив і виразів -->
+    <section class="card">
+      <h2>Шаблони, директиви та вирази</h2>
+      <DirectiveDemo />
+    </section>
+  </main>
 </template>
-
-<style scoped></style>
