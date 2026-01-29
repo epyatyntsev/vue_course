@@ -1,43 +1,39 @@
 # intita-vue-course
 
-This template should help get you started developing with Vue 3 in Vite.
+Цей репозиторій містить навчальний проєкт для курсу з Vue 3 на базі Vite.
 
-## Recommended IDE Setup
+## Документація
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Офіційна документація Vue: https://vuejs.org/
+- Документація Vite: https://vite.dev/
 
-## Recommended Browser Setup
+## Де скачати Node.js
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Офіційний сайт Node.js (LTS): https://nodejs.org/
 
-## Customize configuration
+## Рекомендоване середовище
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- VS Code + розширення Vue (Volar): https://marketplace.visualstudio.com/items?itemName=Vue.volar
 
-## Project Setup
+## Налаштування проєкту
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Запуск dev-сервера
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Збірка для продакшена
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Перевірка стилю коду (ESLint)
 
 ```sh
 npm run lint
