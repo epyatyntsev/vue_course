@@ -38,3 +38,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Уроки
+
+- [Урок 2 — Основи Vue.js 3](LESSON_02.md)
+- [Урок 3 — Реактивність та стан](LESSON_03.md)
