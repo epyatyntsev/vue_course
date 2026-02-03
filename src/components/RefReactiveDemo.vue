@@ -28,6 +28,13 @@ watch(
     log.value.unshift(`Роль змінено: ${prev} → ${next}`)
   },
 )
+
+const addSkill = () => {
+  const value = newSkill.value.trim()
+  if (!value) return
+  skills.value.push(value)
+  newSkill.value = ''
+}
 </script>
 
 <template>
@@ -75,10 +82,7 @@ watch(
           type="button"
           class="btn"
           :disabled="!newSkill.trim()"
-          @click="
-            skills.push(newSkill.trim())
-            newSkill = ''
-          "
+          @click="addSkill"
         >
           Додати
         </button>

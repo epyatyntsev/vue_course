@@ -9,6 +9,12 @@ const state = reactive({
 })
 
 const total = computed(() => state.likes + state.comments + state.shares)
+
+const resetAll = () => {
+  state.likes = 0
+  state.comments = 0
+  state.shares = 0
+}
 </script>
 
 <template>
@@ -35,7 +41,7 @@ const total = computed(() => state.likes + state.comments + state.shares)
 
     <p class="state-board__total">Усього взаємодій: <strong>{{ total }}</strong></p>
 
-    <button type="button" class="btn btn--ghost" @click="state.likes = 0; state.comments = 0; state.shares = 0">
+    <button type="button" class="btn btn--ghost" @click="resetAll">
       Скинути
     </button>
   </div>
