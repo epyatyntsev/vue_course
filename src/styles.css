@@ -184,3 +184,139 @@ body {
 .state-board__total {
   margin: 0;
 }
+
+.slot-card {
+  border: 1px solid #dfe6f3;
+  border-radius: 12px;
+  padding: 16px;
+  background: #ffffff;
+  display: grid;
+  gap: 12px;
+}
+
+.slot-card--info {
+  background: #f7f9ff;
+}
+
+.slot-card--accent {
+  background: #f6fbf7;
+  border-color: #cfe6d6;
+}
+
+.slot-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.slot-card__title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.slot-card__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slot-card__body {
+  display: grid;
+  gap: 8px;
+}
+
+.slot-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slot-card__hint {
+  color: #5b6b86;
+  font-size: 13px;
+}
+
+.slot-card__placeholder {
+  margin: 0;
+  color: #7a8aa6;
+}
+
+.lesson-stat {
+  border: 1px dashed #cdd7ea;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fbfcff;
+}
+
+.lesson-stat__label {
+  margin: 0 0 6px 0;
+  color: #5b6b86;
+  font-size: 13px;
+}
+
+.lesson-stat__value {
+  font-size: 16px;
+}
+
+.user-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.user-list__item {
+  border: 1px solid #e3e8f2;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #ffffff;
+}
+
+.user-list__fallback {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.user-list__custom {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.user-list__meta {
+  margin: 4px 0 0 0;
+  color: #6a7a97;
+  font-size: 12px;
+}
+
+.user-list__empty {
+  padding: 12px;
+  border: 1px dashed #d7deea;
+  border-radius: 10px;
+  color: #6a7a97;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: #eef2fa;
+  color: #4a5a78;
+}
+
+.pill--on {
+  background: #e1f6e7;
+  color: #1f7a3a;
+}
+
+.pill--off {
+  background: #ffe7e7;
+  color: #a23232;
+}
