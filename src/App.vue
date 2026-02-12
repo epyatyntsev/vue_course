@@ -1,5 +1,6 @@
 ﻿<script setup>
-// Головний компонент курсу: попередні уроки + урок про методи й події
+// Головний компонент курсу: попередні уроки + новий урок про компоненти та слоти
+import ComponentsSlotsDemo from '@/components/ComponentsSlotsDemo.vue'
 import DirectiveDemo from '@/components/DirectiveDemo.vue'
 import MethodsEventsDemo from '@/components/MethodsEventsDemo.vue'
 import PostsPanel from '@/components/PostsPanel.vue'
@@ -9,6 +10,11 @@ import StateBoard from '@/components/StateBoard.vue'
 
 <template>
   <main class="page">
+    <section class="card">
+      <h2>Компоненти та слоти</h2>
+      <ComponentsSlotsDemo />
+    </section>
+
     <section class="card">
       <h2>Методи та обробники подій</h2>
       <MethodsEventsDemo />
