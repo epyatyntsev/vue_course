@@ -2,6 +2,7 @@
 const navItems = [
   { to: '/', label: 'Головна' },
   { to: '/router', label: 'Vue Router' },
+  { to: '/pinia', label: 'Pinia' },
 ]
 </script>
 
