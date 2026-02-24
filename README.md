@@ -47,3 +47,4 @@ npm run lint
 - [Урок 5 — Компоненти та слоти](LESSON_05.md)
 - [Урок 6 — Vue Router](LESSON_06.md)
 - [Урок 7 — Управління станом (Pinia)](LESSON_07.md)
+- [Урок 8 — Інтеграція з API (Axios + Pinia)](LESSON_08.md)
