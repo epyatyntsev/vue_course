@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import ApiCrudView from '@/views/ApiCrudView.vue'
 import PiniaView from '@/views/PiniaView.vue'
@@ -11,6 +11,11 @@ const routes = [
   { path: '/pinia', name: 'pinia', component: PiniaView },
   { path: '/api', name: 'api-crud', component: ApiCrudView },
   {
+    path: '/optimize',
+    name: 'optimize',
+    component: () => import('@/views/OptimizationView.vue'),
+  },
+  {
     path: '/router/post/:id',
     name: 'router-post',
     component: RouteParamsView,
@@ -19,7 +24,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
   scrollBehavior() {
     return { top: 0 }
