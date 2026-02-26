@@ -31,11 +31,12 @@ npm run preview
 У `vite.config.js` вже додано `base` для GitHub Pages:
 
 ```js
-const repoName = 'intita-vue-course'
-const base =
-  process.env.NODE_ENV === 'production'
-    ? `/${repoName}/`
-    : '/'
+const repoName = 'vue_course'
+
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? `/${repoName}/` : '/',
+  // ...
+}))
 ```
 
 Якщо назва репозиторію інша — замініть `repoName`.
