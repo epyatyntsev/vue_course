@@ -5,7 +5,10 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
-export default defineConfig({
+const repoName = 'vue_course'
+
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? `/${repoName}/` : '/',
   plugins: [
     vue(),
     vueDevTools(),
@@ -15,4 +18,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-})
+}))

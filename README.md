@@ -33,6 +33,12 @@ npm run dev
 npm run build
 ```
 
+### Деплой на GitHub Pages
+
+```sh
+npm run deploy
+```
+
 ### Перевірка стилю коду (ESLint)
 
 ```sh
@@ -48,3 +54,4 @@ npm run lint
 - [Урок 6 — Vue Router](LESSON_06.md)
 - [Урок 7 — Управління станом (Pinia)](LESSON_07.md)
 - [Урок 8 — Інтеграція з API (Axios + Pinia)](LESSON_08.md)
+- [Урок 9 — Розгортання та оптимізація](LESSON_09.md)

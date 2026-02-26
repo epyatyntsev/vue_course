@@ -1,7 +1,8 @@
 ﻿import axios from 'axios'
+import { API_URL } from '@/config/env'
 
 const api = axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com',
+  baseURL: API_URL,
 })
 
 api.interceptors.response.use(
