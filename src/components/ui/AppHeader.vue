@@ -4,6 +4,7 @@ const navItems = [
   { to: '/router', label: 'Vue Router' },
   { to: '/pinia', label: 'Pinia' },
   { to: '/api', label: 'API + Axios' },
+  { to: '/dashboard', label: 'Dashboard' },
   { to: '/optimize', label: 'Оптимізація' },
 ]
 </script>
