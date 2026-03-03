@@ -183,6 +183,11 @@ body {
   margin: 0;
 }
 
+.muted {
+  color: #6a7a97;
+  margin: 0;
+}
+
 .stat p {
   margin: 4px 0;
 }

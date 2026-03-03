@@ -55,3 +55,8 @@ npm run lint
 - [Урок 7 — Управління станом (Pinia)](LESSON_07.md)
 - [Урок 8 — Інтеграція з API (Axios + Pinia)](LESSON_08.md)
 - [Урок 9 — Розгортання та оптимізація](LESSON_09.md)
+- [Урок 10 — Практика та проєкти](LESSON_10.md)
+
+## Демо
+
+- Dashboard: `/#/dashboard`
