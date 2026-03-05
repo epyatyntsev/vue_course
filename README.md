@@ -45,6 +45,13 @@ npm run deploy
 npm run lint
 ```
 
+### Тести (Vitest)
+
+```sh
+npm install
+npm run test
+```
+
 ## Уроки
 
 - [Урок 2 — Основи Vue.js 3](LESSON_02.md)
@@ -56,6 +63,7 @@ npm run lint
 - [Урок 8 — Інтеграція з API (Axios + Pinia)](LESSON_08.md)
 - [Урок 9 — Розгортання та оптимізація](LESSON_09.md)
 - [Урок 10 — Практика та проєкти](LESSON_10.md)
+- [Урок 11 — Тестування (Vitest)](LESSON_11.md)
 
 ## Демо
 
